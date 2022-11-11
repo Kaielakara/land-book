@@ -1,0 +1,157 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    color:  #2EA94E;
+}
+
+main{
+    display: flex;
+    padding-top: 5rem;
+    margin-left: 2rem;
+}
+
+#left-side{
+    margin-left: 2.6rem;
+    width: 35%;
+}
+
+#left-side img{
+    width: 9rem;
+}
+
+#left-side h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+#left-side p{
+    font-size: .75rem;
+    color: #4B5461;
+}
+
+#overall-box{
+    width: 57.4%;
+    position: relative;
+    right: -2.1rem;
+    color: #4B5461;
+}
+
+/*this is for the border around the box*/
+#form-box{
+    width: 75%;
+    margin: auto;
+    border: .1px solid rgb(209, 209, 209);
+    box-shadow: gray 0px 0px 1px;
+    font-size: 0.6rem;
+    border-radius: 15px;
+} 
+
+#logo-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+/* this is for the button of registering with google or twitter */
+.register{
+    margin: 0.35rem auto;
+    width: 89%;
+    border: 0px;
+    height: 2rem;
+    font-weight: 600;
+    font-size: .6rem;
+    border-radius: 6px;
+}
+
+.register div{
+    display: inline;
+    position: relative;
+    top: -5px;
+}
+
+.social-logo{
+    width: 1rem ;
+    margin-right: 2px ;
+}
+
+fieldset{
+    border: .1px solid rgb(209, 209, 209);
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+legend{
+    padding:0 0.9rem;
+}
+
+#form-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.formin{
+    width: 89%;
+    
+}
+
+.formin input{
+    width: 98.5%;
+    height: 1.9rem;
+    background-color: #F0F0F0;
+    border: 0;
+    border-radius: 6px;
+    margin-top: .4rem;
+}
+
+.formin input::placeholder{
+    padding-left: 1rem ;
+}
+
+#form-check{
+    width: 89%;
+    margin: auto;
+}
+
+
+#sign-in{
+    margin: auto;
+    width: 98.5%;
+    height: 1.9rem;
+    background-color: #2EA94E;
+    border: 0;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    margin-top: .4rem ;
+}
+
+input,label{
+    
+}
+
+#already-member{
+    font-size: 0.6rem;
+    width: 65%;
+    margin: auto;
+}
